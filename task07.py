@@ -34,7 +34,7 @@ def printMedianAvg():
 
 
 def printModeAvg():
-    return multimode(nums)[0]
+    return f"{multimode(nums)}".strip("[]")
 
 
 askForNums()
@@ -42,5 +42,5 @@ print("Mean:")
 print(printMeanAvg())
 print("Median:")
 print(printMedianAvg())
-print("Mode")
+print("Mode:")
 print(printModeAvg())
