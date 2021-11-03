@@ -34,7 +34,7 @@ def printMedianAvg():
 
 
 def printModeAvg():
-    return multimode(nums)
+    return multimode(nums)[0]
 
 
 askForNums()
