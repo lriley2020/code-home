@@ -21,7 +21,6 @@ while people_added < max_people:
                 print("Enter a hobby that is in the list and try again")
         peopleandhobbies[name] = hobby
         people_added += 1
-        print(people_added)
 
     except KeyboardInterrupt:
         print("Done")
