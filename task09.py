@@ -20,7 +20,6 @@ while people_added < max_people:
             if hobby not in approved_hobbies:
                 print("Enter a hobby that is in the list and try again")
         peopleandhobbies[name] = hobby
-        people_added += 1
         print(people_added)
 
     except KeyboardInterrupt:
