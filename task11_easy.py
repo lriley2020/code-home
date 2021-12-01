@@ -1,4 +1,4 @@
-countriesandcaptials = {"England": "London", "Russia": "Kiev", "France": "Paris"}
+countriesandcaptials = {"England": "London", "Russia": "Moscow", "France": "Paris"}
 
 def menu():
     print("""
