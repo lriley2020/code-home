@@ -33,7 +33,7 @@ while True:
         break
 print("----------------------------------------------------")
 print("STATS")
-print(f"You totalled {sum(totalguesses.values())} guesses out of {gameno} correct quesses")
+print(f"You totalled {gameno} correct guesses out of {sum(totalguesses.values())} total quesses")
 guessCorrectRatio = gameno / sum(totalguesses.values())
 print(f"Your accuracy was {guessCorrectRatio * 100}%")
 gamecount = 0
