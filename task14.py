@@ -8,11 +8,11 @@ def isLeapYear(leap):
     else:
         return False
 
-def next10Leaps(startyear):
+def nextNLeaps(startyear, years):
     leaps = 0
-    while leaps < 11:
+    while leaps < years+1:
         startyear += 4
-        if startyear % 4 == 0 and (startyear % 100 != 0 or startyear % 400 == 0):
+        if isLeapYear(startyear):
             print(startyear, end=" ")
             leaps += 1
     print()
@@ -24,6 +24,6 @@ while True:
     if isLeapYear(year):
         print(f"{year} is a leap year!")
         print("These are the next 10 leap years:")
-        next10Leaps(year)
+        nextNLeaps(year, 10)
     else:
         print("Not a leap year :(")
