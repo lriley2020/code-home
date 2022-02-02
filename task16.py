@@ -12,7 +12,7 @@ def update_index():
 
 update_index()
 while True:
-    choice = input("choice(view, add, count, largest)> ")
+    choice = input("choice(view, add, count, largest, exit)> ")
     if choice == "view":
         print(*scraped_nums)
     if choice == "add":
