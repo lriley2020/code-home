@@ -25,3 +25,4 @@ while True:
         print(max(scraped_nums))
     if choice == "exit":
         f.close()
+        break
