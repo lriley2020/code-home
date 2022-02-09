@@ -11,9 +11,9 @@ else: newname = name
 again = "y"
 while again == "y":
     print(f"""{name}, {name}, bo{'-b' if name[0] != 'B' else '-'}{newname.lower()},
-    Bonana-fanna fo{'-f' if name[0] != 'F' else '-'}{newname.lower()},
-    Fee fi mo-m{'-m' if name[0] != 'M' else '-'}{newname.lower()},
-    {name}!""")
+Bonana-fanna fo{'-f' if name[0] != 'F' else '-'}{newname.lower()},
+Fee fi mo{'-m' if name[0] != 'M' else '-'}{newname.lower()},
+{name}!""")
     again = input("again?(y/n)> ")
 with open("namegame.db", "a") as f:
     f.write(f"{name}\n")
