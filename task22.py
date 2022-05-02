@@ -64,3 +64,5 @@ match option:
             for shape in json.load(shapes): print(*shape)
     case 5:
         raise SystemExit
+    case _:
+        print("Sorry, that's not a valid option")
